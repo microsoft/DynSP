@@ -1,0 +1,4199 @@
+[dynet] random seed: 1
+[dynet] allocating memory: 2000MB
+[dynet] memory allocation done.
+Random-split-3-train/dev...
+================================================================================
+Train /home/scottyih/Neural-RL-SP/data/random-split-3-train.tsv
+Test /home/scottyih/Neural-RL-SP/data/random-split-3-dev.tsv
+{u'partial_reward': True, u'USE_PRETRAIN_WORD_EMBEDDING': True, u'AnnotatedTableDir': u'/home/scottyih/Neural-RL-SP/Arvind_data/annotated', u'updateEMB': 0, u'DropOut': True, u'ReduceRowCond': False, u'record_path': u'./cache//glove.6b.100d.trie', u'NUM_ITER': 30, u'guessLogPass': False, u'beam_size': 15, u'recordtriesep': u'|', u'recordtriestructure': u'<ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', u'WORD_EMBEDDING_DIM': 100, u'DIST_BIAS_DIM': 100, u'dirTable': u'file:///D:/ScottYih/Source/Repos/Neural-RL-SP/data', u'LSTM_HIDDEN_DIM': 50, u'embeddingtrie': <marisa_trie.RecordTrie object at 0x7f184f0b2d70>, u'verbose-dump': False}
+>>>>>>>> begin experiments
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+init vw = 32357 words
+beginning to load embeddings....
+the number of words that are in pretrain 22467.0 32357 0.694347436413
+loading complete!
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+list index out of range
+Exception in running!
+12300 / 12321
+In epoch  0  avg loss (or negative reward) is  0.995797612693
+In epoch  0  test reward is 0.320028, test accuracy is 0.251351
+Time taken in this epoch 1661.68729305
+Best Reward: 0.320028 (Accuracy: 0.251351) at epoch 0
+Best Accuracy: 0.251351 (Reward: 0.320028) at epoch 0
+Saving model with header =  model/moduleKwNoMap-b15-3-0
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  1  avg loss (or negative reward) is  0.94852146097
+In epoch  1  test reward is 0.366696, test accuracy is 0.290541
+Time taken in this epoch 1702.33318996
+Best Reward: 0.366696 (Accuracy: 0.290541) at epoch 1
+Best Accuracy: 0.290541 (Reward: 0.366696) at epoch 1
+Saving model with header =  model/moduleKwNoMap-b15-3-1
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+('debug: qinfo', 'nt-1477_0_2', 'table_csv/204_944.csv')
+('debug: cond_row, self.cond_col = ', 0, 0)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24])
+('debug: entries', [['Barton Mine*', 'Ontario', "47deg07'08.75''N 79deg47'09.58''W / 47.1190972degN 79.7859944degW", 'Temagami', '1906-1918', 'Secondary products included gold, silver, copper and bismuth.'], ['Beanland Mine', 'Ontario', "47deg05'28.71''N 79deg49'30.83''W / 47.0913083degN 79.8252306degW", 'Temagami', '1937-1938', 'Also produced silver'], ['Big Dan Mine', 'Ontario', "47deg05'28.53''N 79deg46'28.95''W / 47.0912583degN 79.7747083degW", 'Temagami', '1906-1907', 'Also produced silver and arsenic'], ['Copperfields Mine*', 'Ontario', "46deg57'44.41''N 80deg02'13.67''W / 46.9623361degN 80.0371306degW", 'Temagami', '1954-1972', 'Secondary products included cobalt, gold, nickel, palladium, platinum and silver.'], ['Dome Mine', 'Ontario', '_EMPTY_', 'Timmins', '_EMPTY_', '_EMPTY_'], ['Golden Giant Mine', 'Ontario', '_EMPTY_', 'Hemlo', '1985-2006', '_EMPTY_'], ['Hermiston-McCauley Mine', 'Ontario', "47deg05'54.30''N 79deg49'38.18''W / 47.0984167degN 79.8272722degW", 'Temagami', '1935-1940', '_EMPTY_'], ['Kanichee Mine*', 'Ontario', "47deg06'13.07''N 79deg50'38.63''W / 47.1036306degN 79.8440639degW", 'Temagami', '1937-1948, 1948-1949, 1973-1976', 'Secondary products included gold, palladium, silver and platinum.'], ['Leckie Mine', 'Ontario', "47deg05'36.34''N 79deg47'48.68''W / 47.0934278degN 79.7968556degW", 'Temagami', '~1900-1909, 1933-1937', 'Also produced arsenic, copper and silver'], ['McIntyre Mines', 'Ontario', '_EMPTY_', '_EMPTY_', '_EMPTY_', '_EMPTY_'], ['Norrie Mine*', 'Ontario', "47deg06'59.59''N 79deg46'27.63''W / 47.1165528degN 79.7743417degW", 'Temagami', 'Prior to 1920', 'Secondary products included lead, gold, zinc and silver.'], ['Northland Pyrite Mine*', 'Ontario', "47deg10'26.24''N 79deg44'34.45''W / 47.1739556degN 79.7429028degW", 'Temagami', '1906-1911', 'Secondary products included cobalt, copper, zinc, gold and nickel.'], ['Red Lake Mine', 'Ontario', '_EMPTY_', 'Red Lake', '_EMPTY_', '_EMPTY_'], ['Temagami-Lorrain Mine', 'Ontario', "47deg06'39.79''N 79deg40'58.2''W / 47.1110528degN 79.682833degW", 'Temagami', 'Prior to 1912', 'Also produced cobalt, arsenic, silver, nickel and copper']])
+local variable 'ret' referenced before assignment
+Exception in running!
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  2  avg loss (or negative reward) is  0.91087043957
+In epoch  2  test reward is 0.388549, test accuracy is 0.322072
+Time taken in this epoch 1682.30542111
+Best Reward: 0.388549 (Accuracy: 0.322072) at epoch 2
+Best Accuracy: 0.322072 (Reward: 0.388549) at epoch 2
+Saving model with header =  model/moduleKwNoMap-b15-3-2
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+list index out of range
+Exception in running!
+12300 / 12321
+In epoch  3  avg loss (or negative reward) is  0.872032866503
+In epoch  3  test reward is 0.410208, test accuracy is 0.343243
+Time taken in this epoch 1688.66701794
+Best Reward: 0.410208 (Accuracy: 0.343243) at epoch 3
+Best Accuracy: 0.343243 (Reward: 0.410208) at epoch 3
+Saving model with header =  model/moduleKwNoMap-b15-3-3
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  4  avg loss (or negative reward) is  0.847535780638
+In epoch  4  test reward is 0.420269, test accuracy is 0.357207
+Time taken in this epoch 1724.83722711
+Best Reward: 0.420269 (Accuracy: 0.357207) at epoch 4
+Best Accuracy: 0.357207 (Reward: 0.420269) at epoch 4
+Saving model with header =  model/moduleKwNoMap-b15-3-4
+
+100 / 12321
+('debug: qinfo', 'nt-11738_0_2', 'table_csv/204_249.csv')
+('debug: cond_row, self.cond_col = ', 0, 2)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+('debug: entries', [['0', 'Canada-United States border', 'Canada-United States border', 'ND 18 - Cavalier, Larimore', 'PTH 30 begins'], ['3', 'R.M. of Rhineland', 'Gretna', 'PR 243 east - Emerson', 'begin PR 243 west concurrence'], ['5', 'R.M. of Rhineland', '_EMPTY_', 'PR 243 west - Blumenfeld', 'end PR 243 west concurrence'], ['10', 'R.M. of Rhineland', '_EMPTY_', 'PR 421 east - Sommerfeld', '_EMPTY_'], ['14', 'R.M. of Rhineland', 'Altona', 'PR 201 west - Brown, Windygates, Snowflake', 'begin PR 201 east concurrence'], ['18', 'R.M. of Rhineland', '_EMPTY_', 'PR 201 east - Letellier, Dominion City, Stuartburn', 'end PR 201 east concurrence'], ['25', 'R.M. of Rhineland', 'Rosenfeld', 'PTH 14 - Morden, Winkler, Plum Coulee, Morris  PR 332 north - Lowe Farm, Brunkild, Starbuck', 'PTH 30 ends highway continues as PR 332']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  5  avg loss (or negative reward) is  0.827012746866
+In epoch  5  test reward is 0.434011, test accuracy is 0.372072
+Time taken in this epoch 1738.54422283
+Best Reward: 0.434011 (Accuracy: 0.372072) at epoch 5
+Best Accuracy: 0.372072 (Reward: 0.434011) at epoch 5
+Saving model with header =  model/moduleKwNoMap-b15-3-5
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  6  avg loss (or negative reward) is  0.812797293313
+In epoch  6  test reward is 0.431800, test accuracy is 0.367117
+Time taken in this epoch 1753.69797611
+Best Reward: 0.434011 (Accuracy: 0.372072) at epoch 5
+Best Accuracy: 0.372072 (Reward: 0.434011) at epoch 5
+Saving model with header =  model/moduleKwNoMap-b15-3-6
+
+100 / 12321
+('debug: qinfo', 'nt-14053_0_2', 'table_csv/203_386.csv')
+('debug: cond_row, self.cond_col = ', 0, 3)
+('debug: subtab_rows', [0, 8])
+('debug: entries', [['4 May 1943', 'U-209', 'VIIC', 'Heinrich Brodda', '46', 'Catalina Flying-boat of No. 5 Squadron RCAF'], ['5 May 1943', 'U-638', 'VIIC', 'Oskar Staudinger', '44', 'HMS Sunflower'], ['5 May 1943', 'U-531', 'IXC/40', 'Herbert Neckel', '54', 'HMS Vidette'], ['6 May 1943', 'U-192', 'IXC/40', 'Werner Happe', '55', 'HMS Loosestrife'], ['6 May 1943', 'U-125', 'IXC', 'Ulrich Folkers', '54', 'HMS Oribi, HMS Snowflake'], ['6 May 1943', 'U-630', 'VIIC', 'Werner Winkler', '47', 'HMS Vidette'], ['6 May 1943', 'U-438', 'VIIC', 'Heinrich Hensohn', '48', 'HMS Pelican']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+('debug: qinfo', 'nt-3136_1_2', 'table_csv/204_169.csv')
+('debug: cond_row, self.cond_col = ', 0, 4)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
+('debug: entries', [['Stefan Shalamanov', 'Giant Slalom', 'DNF', '-', 'DNF', '-'], ['Borislav Dimitrachkov', 'Giant Slalom', 'DNF', '-', 'DNF', '-'], ['Lyubomir Popov', 'Giant Slalom', '1:10.73', 'DNF', 'DNF', '-'], ['Stefan Shalamanov', 'Slalom', '58.68', '53.69', '1:52.37', '23'], ['Lyubomir Popov', 'Slalom', '57.78', '53.03', '1:50.81', '19'], ['Borislav Dimitrachkov', 'Slalom', '57.58', '53.23', '1:50.81', '19'], ['Petar Popangelov', 'Slalom', '55.14', '51.20', '1:46.34', '16']])
+local variable 'ret' referenced before assignment
+Exception in running!
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  7  avg loss (or negative reward) is  0.795907062458
+In epoch  7  test reward is 0.439661, test accuracy is 0.376126
+Time taken in this epoch 1765.11024189
+Best Reward: 0.439661 (Accuracy: 0.376126) at epoch 7
+Best Accuracy: 0.376126 (Reward: 0.439661) at epoch 7
+Saving model with header =  model/moduleKwNoMap-b15-3-7
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  8  avg loss (or negative reward) is  0.785101691504
+In epoch  8  test reward is 0.435442, test accuracy is 0.372072
+Time taken in this epoch 1750.06143403
+Best Reward: 0.439661 (Accuracy: 0.376126) at epoch 7
+Best Accuracy: 0.376126 (Reward: 0.439661) at epoch 7
+Saving model with header =  model/moduleKwNoMap-b15-3-8
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+('debug: qinfo', 'nt-1477_0_2', 'table_csv/204_944.csv')
+('debug: cond_row, self.cond_col = ', 0, 0)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24])
+('debug: entries', [['Barton Mine*', 'Ontario', "47deg07'08.75''N 79deg47'09.58''W / 47.1190972degN 79.7859944degW", 'Temagami', '1906-1918', 'Secondary products included gold, silver, copper and bismuth.'], ['Beanland Mine', 'Ontario', "47deg05'28.71''N 79deg49'30.83''W / 47.0913083degN 79.8252306degW", 'Temagami', '1937-1938', 'Also produced silver'], ['Big Dan Mine', 'Ontario', "47deg05'28.53''N 79deg46'28.95''W / 47.0912583degN 79.7747083degW", 'Temagami', '1906-1907', 'Also produced silver and arsenic'], ['Copperfields Mine*', 'Ontario', "46deg57'44.41''N 80deg02'13.67''W / 46.9623361degN 80.0371306degW", 'Temagami', '1954-1972', 'Secondary products included cobalt, gold, nickel, palladium, platinum and silver.'], ['Dome Mine', 'Ontario', '_EMPTY_', 'Timmins', '_EMPTY_', '_EMPTY_'], ['Golden Giant Mine', 'Ontario', '_EMPTY_', 'Hemlo', '1985-2006', '_EMPTY_'], ['Hermiston-McCauley Mine', 'Ontario', "47deg05'54.30''N 79deg49'38.18''W / 47.0984167degN 79.8272722degW", 'Temagami', '1935-1940', '_EMPTY_'], ['Kanichee Mine*', 'Ontario', "47deg06'13.07''N 79deg50'38.63''W / 47.1036306degN 79.8440639degW", 'Temagami', '1937-1948, 1948-1949, 1973-1976', 'Secondary products included gold, palladium, silver and platinum.'], ['Leckie Mine', 'Ontario', "47deg05'36.34''N 79deg47'48.68''W / 47.0934278degN 79.7968556degW", 'Temagami', '~1900-1909, 1933-1937', 'Also produced arsenic, copper and silver'], ['McIntyre Mines', 'Ontario', '_EMPTY_', '_EMPTY_', '_EMPTY_', '_EMPTY_'], ['Norrie Mine*', 'Ontario', "47deg06'59.59''N 79deg46'27.63''W / 47.1165528degN 79.7743417degW", 'Temagami', 'Prior to 1920', 'Secondary products included lead, gold, zinc and silver.'], ['Northland Pyrite Mine*', 'Ontario', "47deg10'26.24''N 79deg44'34.45''W / 47.1739556degN 79.7429028degW", 'Temagami', '1906-1911', 'Secondary products included cobalt, copper, zinc, gold and nickel.'], ['Red Lake Mine', 'Ontario', '_EMPTY_', 'Red Lake', '_EMPTY_', '_EMPTY_'], ['Temagami-Lorrain Mine', 'Ontario', "47deg06'39.79''N 79deg40'58.2''W / 47.1110528degN 79.682833degW", 'Temagami', 'Prior to 1912', 'Also produced cobalt, arsenic, silver, nickel and copper']])
+local variable 'ret' referenced before assignment
+Exception in running!
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+list index out of range
+Exception in running!
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  9  avg loss (or negative reward) is  0.773442510121
+In epoch  9  test reward is 0.438917, test accuracy is 0.377477
+Time taken in this epoch 1758.5898509
+Best Reward: 0.439661 (Accuracy: 0.376126) at epoch 7
+Best Accuracy: 0.377477 (Reward: 0.438917) at epoch 9
+Saving model with header =  model/moduleKwNoMap-b15-3-9
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+list index out of range
+Exception in running!
+12300 / 12321
+In epoch  10  avg loss (or negative reward) is  0.763360487674
+In epoch  10  test reward is 0.443561, test accuracy is 0.376577
+Time taken in this epoch 1777.44360924
+Best Reward: 0.443561 (Accuracy: 0.376577) at epoch 10
+Best Accuracy: 0.377477 (Reward: 0.438917) at epoch 9
+Saving model with header =  model/moduleKwNoMap-b15-3-10
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+list index out of range
+Exception in running!
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+('debug: qinfo', 'ns-1850_2_3', 'table_csv/204_926.csv')
+('debug: cond_row, self.cond_col = ', 0, 5)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
+('debug: entries', [['1', 'Shirley Englehorn', 'United States', '70-70-75-70=285', '-7', '4,500'], ['2', 'Kathy Whitworth', 'United States', '69-71-73-72=285', '-7', '3,410'], ['3', 'Sandra Palmer', 'United States', '73-72-73-70=288', '-4', '2,600'], ['4', 'Murle Breer', 'United States', '75-71-70-74=290', '-2', '2,150'], ['5', 'Sharon Miller', 'United States', '74-74-72-71=291', '-1', '1,800'], ['T6', 'JoAnne Carner', 'United States', '71-76-70-75=292', 'E', '1,400'], ['T6', 'Sandra Haynie', 'United States', '73-72-72-75=292', 'E', '1,400'], ['T8', 'Gerda Boykin', 'West Germany', '73-73-73-74=293', '+1', '1,050'], ['T8', 'Sharron Moran', 'United States', '73-71-75-74=293', '+1', '1,050'], ['T8', 'Marilynn Smith', 'United States', '74-69-73-77=293', '+1', '1,050']])
+local variable 'ret' referenced before assignment
+Exception in running!
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  11  avg loss (or negative reward) is  0.755927504002
+In epoch  11  test reward is 0.442821, test accuracy is 0.376577
+Time taken in this epoch 1779.29078388
+Best Reward: 0.443561 (Accuracy: 0.376577) at epoch 10
+Best Accuracy: 0.377477 (Reward: 0.438917) at epoch 9
+Saving model with header =  model/moduleKwNoMap-b15-3-11
+
+100 / 12321
+('debug: qinfo', 'nt-14053_0_2', 'table_csv/203_386.csv')
+('debug: cond_row, self.cond_col = ', 0, 3)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+('debug: entries', [['4 May 1943', 'U-209', 'VIIC', 'Heinrich Brodda', '46', 'Catalina Flying-boat of No. 5 Squadron RCAF'], ['5 May 1943', 'U-638', 'VIIC', 'Oskar Staudinger', '44', 'HMS Sunflower'], ['5 May 1943', 'U-531', 'IXC/40', 'Herbert Neckel', '54', 'HMS Vidette'], ['6 May 1943', 'U-192', 'IXC/40', 'Werner Happe', '55', 'HMS Loosestrife'], ['6 May 1943', 'U-125', 'IXC', 'Ulrich Folkers', '54', 'HMS Oribi, HMS Snowflake'], ['6 May 1943', 'U-630', 'VIIC', 'Werner Winkler', '47', 'HMS Vidette'], ['6 May 1943', 'U-438', 'VIIC', 'Heinrich Hensohn', '48', 'HMS Pelican']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  12  avg loss (or negative reward) is  0.74625275139
+In epoch  12  test reward is 0.440936, test accuracy is 0.377928
+Time taken in this epoch 1797.231426
+Best Reward: 0.443561 (Accuracy: 0.376577) at epoch 10
+Best Accuracy: 0.377928 (Reward: 0.440936) at epoch 12
+Saving model with header =  model/moduleKwNoMap-b15-3-12
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  13  avg loss (or negative reward) is  0.737351518929
+In epoch  13  test reward is 0.453366, test accuracy is 0.386036
+Time taken in this epoch 1814.55833411
+Best Reward: 0.453366 (Accuracy: 0.386036) at epoch 13
+Best Accuracy: 0.386036 (Reward: 0.453366) at epoch 13
+Saving model with header =  model/moduleKwNoMap-b15-3-13
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  14  avg loss (or negative reward) is  0.731111572665
+In epoch  14  test reward is 0.448104, test accuracy is 0.382432
+Time taken in this epoch 1821.543118
+Best Reward: 0.453366 (Accuracy: 0.386036) at epoch 13
+Best Accuracy: 0.386036 (Reward: 0.453366) at epoch 13
+Saving model with header =  model/moduleKwNoMap-b15-3-14
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+('debug: qinfo', 'nt-1190_1_2', 'table_csv/204_779.csv')
+('debug: cond_row, self.cond_col = ', 0, 2)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+('debug: entries', [['Canal de las Estrellas', 'XEW 2', 'soap operas, retro movies and sports', 'Televisa', '1'], ['Canal 5', 'XHGC 5', 'cartoons, movies, and series', 'Televisa', '1'], ['Azteca 7', 'XHIMT 7', 'sports, series, and movies', 'TV Azteca', '1'], ['Galavision', 'XEQ 9', 'retro programming and sports', 'Televisa', '1'], ['Once TV', 'XEIPN 11', 'educational and cultural', 'National Polytechnic Institute', '1'], ['Azteca 13', 'XHDF 13', 'news, soap operas, and sports', 'TV Azteca', '1'], ['Independent', '_EMPTY_', 'varies', 'Independent', '2']])
+local variable 'ret' referenced before assignment
+Exception in running!
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  15  avg loss (or negative reward) is  0.72127275989
+In epoch  15  test reward is 0.452300, test accuracy is 0.386036
+Time taken in this epoch 1820.87524796
+Best Reward: 0.453366 (Accuracy: 0.386036) at epoch 13
+Best Accuracy: 0.386036 (Reward: 0.453366) at epoch 13
+Saving model with header =  model/moduleKwNoMap-b15-3-15
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+list index out of range
+Exception in running!
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+list index out of range
+Exception in running!
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  16  avg loss (or negative reward) is  0.713445534449
+In epoch  16  test reward is 0.447401, test accuracy is 0.386486
+Time taken in this epoch 1838.25759697
+Best Reward: 0.453366 (Accuracy: 0.386036) at epoch 13
+Best Accuracy: 0.386486 (Reward: 0.447401) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-3-16
+
+100 / 12321
+('debug: qinfo', 'nt-14053_0_2', 'table_csv/203_386.csv')
+('debug: cond_row, self.cond_col = ', 0, 3)
+('debug: subtab_rows', [0, 8])
+('debug: entries', [['4 May 1943', 'U-209', 'VIIC', 'Heinrich Brodda', '46', 'Catalina Flying-boat of No. 5 Squadron RCAF'], ['5 May 1943', 'U-638', 'VIIC', 'Oskar Staudinger', '44', 'HMS Sunflower'], ['5 May 1943', 'U-531', 'IXC/40', 'Herbert Neckel', '54', 'HMS Vidette'], ['6 May 1943', 'U-192', 'IXC/40', 'Werner Happe', '55', 'HMS Loosestrife'], ['6 May 1943', 'U-125', 'IXC', 'Ulrich Folkers', '54', 'HMS Oribi, HMS Snowflake'], ['6 May 1943', 'U-630', 'VIIC', 'Werner Winkler', '47', 'HMS Vidette'], ['6 May 1943', 'U-438', 'VIIC', 'Heinrich Hensohn', '48', 'HMS Pelican']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+('debug: qinfo', 'ns-2086_0_2', 'table_csv/203_809.csv')
+('debug: cond_row, self.cond_col = ', 1, 7)
+('debug: subtab_rows', [1, 4, 18])
+('debug: entries', [['September 2', '12:30 p.m.', 'WKU*', '#15', 'Sanford Stadium * Athens, GA', 'LFS', 'W 48-12', '92,746'], ['September 9', '7:45 p.m.', 'at South Carolina', '#12', 'Williams-Brice Stadium * Columbia, SC', 'ESPN', 'W 18-0', '82,513'], ['September 16', '1:00 p.m.', 'UAB*', '#10', 'Sanford Stadium * Athens, GA', 'CSS', 'W 34-0', '92,746'], ['September 23', '12:30 p.m.', 'Colorado*', '#9', 'Sanford Stadium * Athens, GA', 'LFS', 'W 14-13', '92,746'], ['September 30', '9:00 p.m.', 'at Ole Miss', '#10', 'Vaught-Hemingway Stadium * Oxford, MS', 'ESPN2', 'W 14-9', '57,184'], ['October 7', '7:45 p.m.', '#13 Tennessee', '#10', 'Sanford Stadium * Athens, GA', 'ESPN', 'L 33-51', '92,746'], ['October 14', '12:30 p.m.', 'Vanderbilt', '#16', 'Sanford Stadium * Athens, GA', 'LFS', 'L 22-24', '92,746'], ['October 21', '1:00 p.m.', 'Mississippi State', '_EMPTY_', 'Sanford Stadium * Athens, GA', '_EMPTY_', 'W 27-24', '92,746'], ['October 28', '3:30 p.m.', 'vs. #9 Florida', '_EMPTY_', 'Alltel Stadium * Jacksonville, FL (Florida-Georgia game)', 'CBS', 'L 14-21', '84,572'], ['November 4', '1:00 p.m.', 'at Kentucky', '_EMPTY_', 'Commonwealth Stadium * Lexington, KY', '_EMPTY_', 'L 20-24', '62,120'], ['November 11', '12:30 p.m.', 'at #5 Auburn', '_EMPTY_', "Jordan-Hare Stadium * Auburn, AL (Deep South's Oldest Rivalry)", 'LFS', 'W 37-15', '87,451'], ['November 25', '3:30 p.m.', '#16 Georgia Tech*', '_EMPTY_', 'Sanford Stadium * Athens, GA (Clean, Old-Fashioned Hate)', 'CBS', 'W 15-12', '92,746'], ['December 30', '8:00 p.m.', 'vs. #14 Virginia Tech*', '_EMPTY_', 'Georgia Dome * Atlanta, GA (Chick-fil-A Bowl)', 'ESPN', 'W 31-24', '75,406']])
+local variable 'ret' referenced before assignment
+Exception in running!
+('debug: qinfo', 'ns-2086_0_3', 'table_csv/203_809.csv')
+('debug: cond_row, self.cond_col = ', 1, 0)
+('debug: subtab_rows', [1, 4, 18])
+('debug: entries', [['September 2', '12:30 p.m.', 'WKU*', '#15', 'Sanford Stadium * Athens, GA', 'LFS', 'W 48-12', '92,746'], ['September 9', '7:45 p.m.', 'at South Carolina', '#12', 'Williams-Brice Stadium * Columbia, SC', 'ESPN', 'W 18-0', '82,513'], ['September 16', '1:00 p.m.', 'UAB*', '#10', 'Sanford Stadium * Athens, GA', 'CSS', 'W 34-0', '92,746'], ['September 23', '12:30 p.m.', 'Colorado*', '#9', 'Sanford Stadium * Athens, GA', 'LFS', 'W 14-13', '92,746'], ['September 30', '9:00 p.m.', 'at Ole Miss', '#10', 'Vaught-Hemingway Stadium * Oxford, MS', 'ESPN2', 'W 14-9', '57,184'], ['October 7', '7:45 p.m.', '#13 Tennessee', '#10', 'Sanford Stadium * Athens, GA', 'ESPN', 'L 33-51', '92,746'], ['October 14', '12:30 p.m.', 'Vanderbilt', '#16', 'Sanford Stadium * Athens, GA', 'LFS', 'L 22-24', '92,746'], ['October 21', '1:00 p.m.', 'Mississippi State', '_EMPTY_', 'Sanford Stadium * Athens, GA', '_EMPTY_', 'W 27-24', '92,746'], ['October 28', '3:30 p.m.', 'vs. #9 Florida', '_EMPTY_', 'Alltel Stadium * Jacksonville, FL (Florida-Georgia game)', 'CBS', 'L 14-21', '84,572'], ['November 4', '1:00 p.m.', 'at Kentucky', '_EMPTY_', 'Commonwealth Stadium * Lexington, KY', '_EMPTY_', 'L 20-24', '62,120'], ['November 11', '12:30 p.m.', 'at #5 Auburn', '_EMPTY_', "Jordan-Hare Stadium * Auburn, AL (Deep South's Oldest Rivalry)", 'LFS', 'W 37-15', '87,451'], ['November 25', '3:30 p.m.', '#16 Georgia Tech*', '_EMPTY_', 'Sanford Stadium * Athens, GA (Clean, Old-Fashioned Hate)', 'CBS', 'W 15-12', '92,746'], ['December 30', '8:00 p.m.', 'vs. #14 Virginia Tech*', '_EMPTY_', 'Georgia Dome * Atlanta, GA (Chick-fil-A Bowl)', 'ESPN', 'W 31-24', '75,406']])
+local variable 'ret' referenced before assignment
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+list index out of range
+Exception in running!
+12300 / 12321
+In epoch  17  avg loss (or negative reward) is  0.70581850991
+In epoch  17  test reward is 0.446111, test accuracy is 0.381532
+Time taken in this epoch 1832.63587499
+Best Reward: 0.453366 (Accuracy: 0.386036) at epoch 13
+Best Accuracy: 0.386486 (Reward: 0.447401) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-3-17
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  18  avg loss (or negative reward) is  0.698513947595
+In epoch  18  test reward is 0.446526, test accuracy is 0.382883
+Time taken in this epoch 1835.88266587
+Best Reward: 0.453366 (Accuracy: 0.386036) at epoch 13
+Best Accuracy: 0.386486 (Reward: 0.447401) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-3-18
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  19  avg loss (or negative reward) is  0.694476910793
+In epoch  19  test reward is 0.457465, test accuracy is 0.387838
+Time taken in this epoch 1841.85781622
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.387838 (Reward: 0.457465) at epoch 19
+Saving model with header =  model/moduleKwNoMap-b15-3-19
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  20  avg loss (or negative reward) is  0.687597974705
+In epoch  20  test reward is 0.447139, test accuracy is 0.378829
+Time taken in this epoch 1853.01060081
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.387838 (Reward: 0.457465) at epoch 19
+Saving model with header =  model/moduleKwNoMap-b15-3-20
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  21  avg loss (or negative reward) is  0.675741471414
+In epoch  21  test reward is 0.450247, test accuracy is 0.382432
+Time taken in this epoch 1851.81564999
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.387838 (Reward: 0.457465) at epoch 19
+Saving model with header =  model/moduleKwNoMap-b15-3-21
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+('debug: qinfo', 'ns-2086_0_2', 'table_csv/203_809.csv')
+('debug: cond_row, self.cond_col = ', 1, 7)
+('debug: subtab_rows', [1, 4, 18])
+('debug: entries', [['September 2', '12:30 p.m.', 'WKU*', '#15', 'Sanford Stadium * Athens, GA', 'LFS', 'W 48-12', '92,746'], ['September 9', '7:45 p.m.', 'at South Carolina', '#12', 'Williams-Brice Stadium * Columbia, SC', 'ESPN', 'W 18-0', '82,513'], ['September 16', '1:00 p.m.', 'UAB*', '#10', 'Sanford Stadium * Athens, GA', 'CSS', 'W 34-0', '92,746'], ['September 23', '12:30 p.m.', 'Colorado*', '#9', 'Sanford Stadium * Athens, GA', 'LFS', 'W 14-13', '92,746'], ['September 30', '9:00 p.m.', 'at Ole Miss', '#10', 'Vaught-Hemingway Stadium * Oxford, MS', 'ESPN2', 'W 14-9', '57,184'], ['October 7', '7:45 p.m.', '#13 Tennessee', '#10', 'Sanford Stadium * Athens, GA', 'ESPN', 'L 33-51', '92,746'], ['October 14', '12:30 p.m.', 'Vanderbilt', '#16', 'Sanford Stadium * Athens, GA', 'LFS', 'L 22-24', '92,746'], ['October 21', '1:00 p.m.', 'Mississippi State', '_EMPTY_', 'Sanford Stadium * Athens, GA', '_EMPTY_', 'W 27-24', '92,746'], ['October 28', '3:30 p.m.', 'vs. #9 Florida', '_EMPTY_', 'Alltel Stadium * Jacksonville, FL (Florida-Georgia game)', 'CBS', 'L 14-21', '84,572'], ['November 4', '1:00 p.m.', 'at Kentucky', '_EMPTY_', 'Commonwealth Stadium * Lexington, KY', '_EMPTY_', 'L 20-24', '62,120'], ['November 11', '12:30 p.m.', 'at #5 Auburn', '_EMPTY_', "Jordan-Hare Stadium * Auburn, AL (Deep South's Oldest Rivalry)", 'LFS', 'W 37-15', '87,451'], ['November 25', '3:30 p.m.', '#16 Georgia Tech*', '_EMPTY_', 'Sanford Stadium * Athens, GA (Clean, Old-Fashioned Hate)', 'CBS', 'W 15-12', '92,746'], ['December 30', '8:00 p.m.', 'vs. #14 Virginia Tech*', '_EMPTY_', 'Georgia Dome * Atlanta, GA (Chick-fil-A Bowl)', 'ESPN', 'W 31-24', '75,406']])
+local variable 'ret' referenced before assignment
+Exception in running!
+('debug: qinfo', 'ns-2086_0_3', 'table_csv/203_809.csv')
+('debug: cond_row, self.cond_col = ', 1, 0)
+('debug: subtab_rows', [1, 4, 18])
+('debug: entries', [['September 2', '12:30 p.m.', 'WKU*', '#15', 'Sanford Stadium * Athens, GA', 'LFS', 'W 48-12', '92,746'], ['September 9', '7:45 p.m.', 'at South Carolina', '#12', 'Williams-Brice Stadium * Columbia, SC', 'ESPN', 'W 18-0', '82,513'], ['September 16', '1:00 p.m.', 'UAB*', '#10', 'Sanford Stadium * Athens, GA', 'CSS', 'W 34-0', '92,746'], ['September 23', '12:30 p.m.', 'Colorado*', '#9', 'Sanford Stadium * Athens, GA', 'LFS', 'W 14-13', '92,746'], ['September 30', '9:00 p.m.', 'at Ole Miss', '#10', 'Vaught-Hemingway Stadium * Oxford, MS', 'ESPN2', 'W 14-9', '57,184'], ['October 7', '7:45 p.m.', '#13 Tennessee', '#10', 'Sanford Stadium * Athens, GA', 'ESPN', 'L 33-51', '92,746'], ['October 14', '12:30 p.m.', 'Vanderbilt', '#16', 'Sanford Stadium * Athens, GA', 'LFS', 'L 22-24', '92,746'], ['October 21', '1:00 p.m.', 'Mississippi State', '_EMPTY_', 'Sanford Stadium * Athens, GA', '_EMPTY_', 'W 27-24', '92,746'], ['October 28', '3:30 p.m.', 'vs. #9 Florida', '_EMPTY_', 'Alltel Stadium * Jacksonville, FL (Florida-Georgia game)', 'CBS', 'L 14-21', '84,572'], ['November 4', '1:00 p.m.', 'at Kentucky', '_EMPTY_', 'Commonwealth Stadium * Lexington, KY', '_EMPTY_', 'L 20-24', '62,120'], ['November 11', '12:30 p.m.', 'at #5 Auburn', '_EMPTY_', "Jordan-Hare Stadium * Auburn, AL (Deep South's Oldest Rivalry)", 'LFS', 'W 37-15', '87,451'], ['November 25', '3:30 p.m.', '#16 Georgia Tech*', '_EMPTY_', 'Sanford Stadium * Athens, GA (Clean, Old-Fashioned Hate)', 'CBS', 'W 15-12', '92,746'], ['December 30', '8:00 p.m.', 'vs. #14 Virginia Tech*', '_EMPTY_', 'Georgia Dome * Atlanta, GA (Chick-fil-A Bowl)', 'ESPN', 'W 31-24', '75,406']])
+local variable 'ret' referenced before assignment
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  22  avg loss (or negative reward) is  0.672315281101
+In epoch  22  test reward is 0.449756, test accuracy is 0.384685
+Time taken in this epoch 1861.10901213
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.387838 (Reward: 0.457465) at epoch 19
+Saving model with header =  model/moduleKwNoMap-b15-3-22
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+('debug: qinfo', 'nt-1477_0_2', 'table_csv/204_944.csv')
+('debug: cond_row, self.cond_col = ', 0, 0)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24])
+('debug: entries', [['Barton Mine*', 'Ontario', "47deg07'08.75''N 79deg47'09.58''W / 47.1190972degN 79.7859944degW", 'Temagami', '1906-1918', 'Secondary products included gold, silver, copper and bismuth.'], ['Beanland Mine', 'Ontario', "47deg05'28.71''N 79deg49'30.83''W / 47.0913083degN 79.8252306degW", 'Temagami', '1937-1938', 'Also produced silver'], ['Big Dan Mine', 'Ontario', "47deg05'28.53''N 79deg46'28.95''W / 47.0912583degN 79.7747083degW", 'Temagami', '1906-1907', 'Also produced silver and arsenic'], ['Copperfields Mine*', 'Ontario', "46deg57'44.41''N 80deg02'13.67''W / 46.9623361degN 80.0371306degW", 'Temagami', '1954-1972', 'Secondary products included cobalt, gold, nickel, palladium, platinum and silver.'], ['Dome Mine', 'Ontario', '_EMPTY_', 'Timmins', '_EMPTY_', '_EMPTY_'], ['Golden Giant Mine', 'Ontario', '_EMPTY_', 'Hemlo', '1985-2006', '_EMPTY_'], ['Hermiston-McCauley Mine', 'Ontario', "47deg05'54.30''N 79deg49'38.18''W / 47.0984167degN 79.8272722degW", 'Temagami', '1935-1940', '_EMPTY_'], ['Kanichee Mine*', 'Ontario', "47deg06'13.07''N 79deg50'38.63''W / 47.1036306degN 79.8440639degW", 'Temagami', '1937-1948, 1948-1949, 1973-1976', 'Secondary products included gold, palladium, silver and platinum.'], ['Leckie Mine', 'Ontario', "47deg05'36.34''N 79deg47'48.68''W / 47.0934278degN 79.7968556degW", 'Temagami', '~1900-1909, 1933-1937', 'Also produced arsenic, copper and silver'], ['McIntyre Mines', 'Ontario', '_EMPTY_', '_EMPTY_', '_EMPTY_', '_EMPTY_'], ['Norrie Mine*', 'Ontario', "47deg06'59.59''N 79deg46'27.63''W / 47.1165528degN 79.7743417degW", 'Temagami', 'Prior to 1920', 'Secondary products included lead, gold, zinc and silver.'], ['Northland Pyrite Mine*', 'Ontario', "47deg10'26.24''N 79deg44'34.45''W / 47.1739556degN 79.7429028degW", 'Temagami', '1906-1911', 'Secondary products included cobalt, copper, zinc, gold and nickel.'], ['Red Lake Mine', 'Ontario', '_EMPTY_', 'Red Lake', '_EMPTY_', '_EMPTY_'], ['Temagami-Lorrain Mine', 'Ontario', "47deg06'39.79''N 79deg40'58.2''W / 47.1110528degN 79.682833degW", 'Temagami', 'Prior to 1912', 'Also produced cobalt, arsenic, silver, nickel and copper']])
+local variable 'ret' referenced before assignment
+Exception in running!
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+list index out of range
+Exception in running!
+12300 / 12321
+In epoch  23  avg loss (or negative reward) is  0.662613467446
+In epoch  23  test reward is 0.450258, test accuracy is 0.380631
+Time taken in this epoch 1844.09335995
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.387838 (Reward: 0.457465) at epoch 19
+Saving model with header =  model/moduleKwNoMap-b15-3-23
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  24  avg loss (or negative reward) is  0.660057568273
+In epoch  24  test reward is 0.442362, test accuracy is 0.378378
+Time taken in this epoch 1884.84956002
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.387838 (Reward: 0.457465) at epoch 19
+Saving model with header =  model/moduleKwNoMap-b15-3-24
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  25  avg loss (or negative reward) is  0.655128561102
+In epoch  25  test reward is 0.453460, test accuracy is 0.385135
+Time taken in this epoch 1789.999542
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.387838 (Reward: 0.457465) at epoch 19
+Saving model with header =  model/moduleKwNoMap-b15-3-25
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+('debug: qinfo', 'nt-1477_0_2', 'table_csv/204_944.csv')
+('debug: cond_row, self.cond_col = ', 0, 0)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24])
+('debug: entries', [['Barton Mine*', 'Ontario', "47deg07'08.75''N 79deg47'09.58''W / 47.1190972degN 79.7859944degW", 'Temagami', '1906-1918', 'Secondary products included gold, silver, copper and bismuth.'], ['Beanland Mine', 'Ontario', "47deg05'28.71''N 79deg49'30.83''W / 47.0913083degN 79.8252306degW", 'Temagami', '1937-1938', 'Also produced silver'], ['Big Dan Mine', 'Ontario', "47deg05'28.53''N 79deg46'28.95''W / 47.0912583degN 79.7747083degW", 'Temagami', '1906-1907', 'Also produced silver and arsenic'], ['Copperfields Mine*', 'Ontario', "46deg57'44.41''N 80deg02'13.67''W / 46.9623361degN 80.0371306degW", 'Temagami', '1954-1972', 'Secondary products included cobalt, gold, nickel, palladium, platinum and silver.'], ['Dome Mine', 'Ontario', '_EMPTY_', 'Timmins', '_EMPTY_', '_EMPTY_'], ['Golden Giant Mine', 'Ontario', '_EMPTY_', 'Hemlo', '1985-2006', '_EMPTY_'], ['Hermiston-McCauley Mine', 'Ontario', "47deg05'54.30''N 79deg49'38.18''W / 47.0984167degN 79.8272722degW", 'Temagami', '1935-1940', '_EMPTY_'], ['Kanichee Mine*', 'Ontario', "47deg06'13.07''N 79deg50'38.63''W / 47.1036306degN 79.8440639degW", 'Temagami', '1937-1948, 1948-1949, 1973-1976', 'Secondary products included gold, palladium, silver and platinum.'], ['Leckie Mine', 'Ontario', "47deg05'36.34''N 79deg47'48.68''W / 47.0934278degN 79.7968556degW", 'Temagami', '~1900-1909, 1933-1937', 'Also produced arsenic, copper and silver'], ['McIntyre Mines', 'Ontario', '_EMPTY_', '_EMPTY_', '_EMPTY_', '_EMPTY_'], ['Norrie Mine*', 'Ontario', "47deg06'59.59''N 79deg46'27.63''W / 47.1165528degN 79.7743417degW", 'Temagami', 'Prior to 1920', 'Secondary products included lead, gold, zinc and silver.'], ['Northland Pyrite Mine*', 'Ontario', "47deg10'26.24''N 79deg44'34.45''W / 47.1739556degN 79.7429028degW", 'Temagami', '1906-1911', 'Secondary products included cobalt, copper, zinc, gold and nickel.'], ['Red Lake Mine', 'Ontario', '_EMPTY_', 'Red Lake', '_EMPTY_', '_EMPTY_'], ['Temagami-Lorrain Mine', 'Ontario', "47deg06'39.79''N 79deg40'58.2''W / 47.1110528degN 79.682833degW", 'Temagami', 'Prior to 1912', 'Also produced cobalt, arsenic, silver, nickel and copper']])
+local variable 'ret' referenced before assignment
+Exception in running!
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+('debug: qinfo', 'nt-3136_1_2', 'table_csv/204_169.csv')
+('debug: cond_row, self.cond_col = ', 0, 2)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
+('debug: entries', [['Stefan Shalamanov', 'Giant Slalom', 'DNF', '-', 'DNF', '-'], ['Borislav Dimitrachkov', 'Giant Slalom', 'DNF', '-', 'DNF', '-'], ['Lyubomir Popov', 'Giant Slalom', '1:10.73', 'DNF', 'DNF', '-'], ['Stefan Shalamanov', 'Slalom', '58.68', '53.69', '1:52.37', '23'], ['Lyubomir Popov', 'Slalom', '57.78', '53.03', '1:50.81', '19'], ['Borislav Dimitrachkov', 'Slalom', '57.58', '53.23', '1:50.81', '19'], ['Petar Popangelov', 'Slalom', '55.14', '51.20', '1:46.34', '16']])
+local variable 'ret' referenced before assignment
+Exception in running!
+('debug: qinfo', 'nt-3136_2_2', 'table_csv/204_169.csv')
+('debug: cond_row, self.cond_col = ', 0, 2)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
+('debug: entries', [['Stefan Shalamanov', 'Giant Slalom', 'DNF', '-', 'DNF', '-'], ['Borislav Dimitrachkov', 'Giant Slalom', 'DNF', '-', 'DNF', '-'], ['Lyubomir Popov', 'Giant Slalom', '1:10.73', 'DNF', 'DNF', '-'], ['Stefan Shalamanov', 'Slalom', '58.68', '53.69', '1:52.37', '23'], ['Lyubomir Popov', 'Slalom', '57.78', '53.03', '1:50.81', '19'], ['Borislav Dimitrachkov', 'Slalom', '57.58', '53.23', '1:50.81', '19'], ['Petar Popangelov', 'Slalom', '55.14', '51.20', '1:46.34', '16']])
+local variable 'ret' referenced before assignment
+Exception in running!
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  26  avg loss (or negative reward) is  0.650009233699
+In epoch  26  test reward is 0.456894, test accuracy is 0.391892
+Time taken in this epoch 1774.29021192
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.391892 (Reward: 0.456894) at epoch 26
+Saving model with header =  model/moduleKwNoMap-b15-3-26
+
+100 / 12321
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+list index out of range
+Exception in running!
+12300 / 12321
+In epoch  27  avg loss (or negative reward) is  0.645200793194
+In epoch  27  test reward is 0.452933, test accuracy is 0.387838
+Time taken in this epoch 1698.33748913
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.391892 (Reward: 0.456894) at epoch 26
+Saving model with header =  model/moduleKwNoMap-b15-3-27
+
+100 / 12321
+('debug: qinfo', 'nt-11738_0_2', 'table_csv/204_249.csv')
+('debug: cond_row, self.cond_col = ', 0, 2)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+('debug: entries', [['0', 'Canada-United States border', 'Canada-United States border', 'ND 18 - Cavalier, Larimore', 'PTH 30 begins'], ['3', 'R.M. of Rhineland', 'Gretna', 'PR 243 east - Emerson', 'begin PR 243 west concurrence'], ['5', 'R.M. of Rhineland', '_EMPTY_', 'PR 243 west - Blumenfeld', 'end PR 243 west concurrence'], ['10', 'R.M. of Rhineland', '_EMPTY_', 'PR 421 east - Sommerfeld', '_EMPTY_'], ['14', 'R.M. of Rhineland', 'Altona', 'PR 201 west - Brown, Windygates, Snowflake', 'begin PR 201 east concurrence'], ['18', 'R.M. of Rhineland', '_EMPTY_', 'PR 201 east - Letellier, Dominion City, Stuartburn', 'end PR 201 east concurrence'], ['25', 'R.M. of Rhineland', 'Rosenfeld', 'PTH 14 - Morden, Winkler, Plum Coulee, Morris  PR 332 north - Lowe Farm, Brunkild, Starbuck', 'PTH 30 ends highway continues as PR 332']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+12300 / 12321
+In epoch  28  avg loss (or negative reward) is  0.638901404273
+In epoch  28  test reward is 0.454151, test accuracy is 0.388739
+Time taken in this epoch 1677.66617393
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.391892 (Reward: 0.456894) at epoch 26
+Saving model with header =  model/moduleKwNoMap-b15-3-28
+
+100 / 12321
+('debug: qinfo', 'nt-14053_0_2', 'table_csv/203_386.csv')
+('debug: cond_row, self.cond_col = ', 0, 3)
+('debug: subtab_rows', [0, 8])
+('debug: entries', [['4 May 1943', 'U-209', 'VIIC', 'Heinrich Brodda', '46', 'Catalina Flying-boat of No. 5 Squadron RCAF'], ['5 May 1943', 'U-638', 'VIIC', 'Oskar Staudinger', '44', 'HMS Sunflower'], ['5 May 1943', 'U-531', 'IXC/40', 'Herbert Neckel', '54', 'HMS Vidette'], ['6 May 1943', 'U-192', 'IXC/40', 'Werner Happe', '55', 'HMS Loosestrife'], ['6 May 1943', 'U-125', 'IXC', 'Ulrich Folkers', '54', 'HMS Oribi, HMS Snowflake'], ['6 May 1943', 'U-630', 'VIIC', 'Werner Winkler', '47', 'HMS Vidette'], ['6 May 1943', 'U-438', 'VIIC', 'Heinrich Hensohn', '48', 'HMS Pelican']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12321
+300 / 12321
+400 / 12321
+500 / 12321
+600 / 12321
+700 / 12321
+800 / 12321
+900 / 12321
+1000 / 12321
+1100 / 12321
+1200 / 12321
+1300 / 12321
+1400 / 12321
+1500 / 12321
+1600 / 12321
+1700 / 12321
+1800 / 12321
+1900 / 12321
+2000 / 12321
+2100 / 12321
+2200 / 12321
+2300 / 12321
+2400 / 12321
+2500 / 12321
+2600 / 12321
+2700 / 12321
+2800 / 12321
+2900 / 12321
+3000 / 12321
+3100 / 12321
+3200 / 12321
+3300 / 12321
+3400 / 12321
+3500 / 12321
+3600 / 12321
+3700 / 12321
+3800 / 12321
+3900 / 12321
+4000 / 12321
+4100 / 12321
+4200 / 12321
+4300 / 12321
+4400 / 12321
+4500 / 12321
+4600 / 12321
+4700 / 12321
+4800 / 12321
+4900 / 12321
+5000 / 12321
+5100 / 12321
+5200 / 12321
+5300 / 12321
+5400 / 12321
+5500 / 12321
+5600 / 12321
+5700 / 12321
+5800 / 12321
+5900 / 12321
+6000 / 12321
+6100 / 12321
+6200 / 12321
+6300 / 12321
+6400 / 12321
+6500 / 12321
+6600 / 12321
+6700 / 12321
+6800 / 12321
+6900 / 12321
+7000 / 12321
+7100 / 12321
+7200 / 12321
+7300 / 12321
+7400 / 12321
+7500 / 12321
+7600 / 12321
+7700 / 12321
+7800 / 12321
+7900 / 12321
+8000 / 12321
+8100 / 12321
+8200 / 12321
+8300 / 12321
+8400 / 12321
+8500 / 12321
+8600 / 12321
+8700 / 12321
+8800 / 12321
+8900 / 12321
+9000 / 12321
+9100 / 12321
+9200 / 12321
+9300 / 12321
+9400 / 12321
+9500 / 12321
+9600 / 12321
+9700 / 12321
+9800 / 12321
+9900 / 12321
+10000 / 12321
+10100 / 12321
+10200 / 12321
+10300 / 12321
+10400 / 12321
+10500 / 12321
+10600 / 12321
+10700 / 12321
+10800 / 12321
+10900 / 12321
+11000 / 12321
+11100 / 12321
+11200 / 12321
+11300 / 12321
+11400 / 12321
+11500 / 12321
+11600 / 12321
+11700 / 12321
+11800 / 12321
+11900 / 12321
+12000 / 12321
+12100 / 12321
+12200 / 12321
+list index out of range
+Exception in running!
+12300 / 12321
+In epoch  29  avg loss (or negative reward) is  0.63077139447
+In epoch  29  test reward is 0.453527, test accuracy is 0.390991
+Time taken in this epoch 1681.24257207
+Best Reward: 0.457465 (Accuracy: 0.387838) at epoch 19
+Best Accuracy: 0.391892 (Reward: 0.456894) at epoch 26
+Saving model with header =  model/moduleKwNoMap-b15-3-29
+

@@ -1,0 +1,4065 @@
+[dynet] random seed: 1
+[dynet] allocating memory: 2000MB
+[dynet] memory allocation done.
+Random-split-2-train/dev...
+================================================================================
+Train /home/scottyih/Neural-RL-SP/data/random-split-2-train.tsv
+Test /home/scottyih/Neural-RL-SP/data/random-split-2-dev.tsv
+{u'partial_reward': True, u'USE_PRETRAIN_WORD_EMBEDDING': True, u'AnnotatedTableDir': u'/home/scottyih/Neural-RL-SP/Arvind_data/annotated', u'updateEMB': 0, u'DropOut': True, u'ReduceRowCond': False, u'record_path': u'./cache//glove.6b.100d.trie', u'NUM_ITER': 30, u'guessLogPass': False, u'beam_size': 15, u'recordtriesep': u'|', u'recordtriestructure': u'<ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', u'WORD_EMBEDDING_DIM': 100, u'DIST_BIAS_DIM': 100, u'dirTable': u'file:///D:/ScottYih/Source/Repos/Neural-RL-SP/data', u'LSTM_HIDDEN_DIM': 50, u'embeddingtrie': <marisa_trie.RecordTrie object at 0x7f8f6916ed70>, u'verbose-dump': False}
+>>>>>>>> begin experiments
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/855.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/74.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/546.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/309.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/204-annotated/51.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/803.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/325.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+Warning: /home/scottyih/Neural-RL-SP/Arvind_data/annotated/203-annotated/190.annotated is not complete!
+init vw = 32357 words
+beginning to load embeddings....
+the number of words that are in pretrain 22467.0 32357 0.694347436413
+loading complete!
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+list index out of range
+Exception in running!
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  0  avg loss (or negative reward) is  0.997178621651
+In epoch  0  test reward is 0.304965, test accuracy is 0.224374
+Time taken in this epoch 1573.77024102
+Best Reward: 0.304965 (Accuracy: 0.224374) at epoch 0
+Best Accuracy: 0.224374 (Reward: 0.304965) at epoch 0
+Saving model with header =  model/moduleKwNoMap-b15-2-0
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  1  avg loss (or negative reward) is  0.946318582892
+In epoch  1  test reward is 0.325747, test accuracy is 0.256255
+Time taken in this epoch 1639.45332718
+Best Reward: 0.325747 (Accuracy: 0.256255) at epoch 1
+Best Accuracy: 0.256255 (Reward: 0.325747) at epoch 1
+Saving model with header =  model/moduleKwNoMap-b15-2-1
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  2  avg loss (or negative reward) is  0.90344321494
+In epoch  2  test reward is 0.362808, test accuracy is 0.301856
+Time taken in this epoch 1666.91286087
+Best Reward: 0.362808 (Accuracy: 0.301856) at epoch 2
+Best Accuracy: 0.301856 (Reward: 0.362808) at epoch 2
+Saving model with header =  model/moduleKwNoMap-b15-2-2
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+list index out of range
+Exception in running!
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  3  avg loss (or negative reward) is  0.870915529049
+In epoch  3  test reward is 0.383705, test accuracy is 0.320016
+Time taken in this epoch 1666.04484415
+Best Reward: 0.383705 (Accuracy: 0.320016) at epoch 3
+Best Accuracy: 0.320016 (Reward: 0.383705) at epoch 3
+Saving model with header =  model/moduleKwNoMap-b15-2-3
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  4  avg loss (or negative reward) is  0.843591388892
+In epoch  4  test reward is 0.384661, test accuracy is 0.320420
+Time taken in this epoch 1704.13621378
+Best Reward: 0.384661 (Accuracy: 0.320420) at epoch 4
+Best Accuracy: 0.320420 (Reward: 0.384661) at epoch 4
+Saving model with header =  model/moduleKwNoMap-b15-2-4
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  5  avg loss (or negative reward) is  0.823439770534
+In epoch  5  test reward is 0.402659, test accuracy is 0.345843
+Time taken in this epoch 1705.58231711
+Best Reward: 0.402659 (Accuracy: 0.345843) at epoch 5
+Best Accuracy: 0.345843 (Reward: 0.402659) at epoch 5
+Saving model with header =  model/moduleKwNoMap-b15-2-5
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  6  avg loss (or negative reward) is  0.809186047011
+In epoch  6  test reward is 0.401597, test accuracy is 0.346651
+Time taken in this epoch 1722.12846494
+Best Reward: 0.402659 (Accuracy: 0.345843) at epoch 5
+Best Accuracy: 0.346651 (Reward: 0.401597) at epoch 6
+Saving model with header =  model/moduleKwNoMap-b15-2-6
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  7  avg loss (or negative reward) is  0.794402555141
+In epoch  7  test reward is 0.410835, test accuracy is 0.353511
+Time taken in this epoch 1743.71175694
+Best Reward: 0.410835 (Accuracy: 0.353511) at epoch 7
+Best Accuracy: 0.353511 (Reward: 0.410835) at epoch 7
+Saving model with header =  model/moduleKwNoMap-b15-2-7
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  8  avg loss (or negative reward) is  0.782921157213
+In epoch  8  test reward is 0.415251, test accuracy is 0.359968
+Time taken in this epoch 1738.90957522
+Best Reward: 0.415251 (Accuracy: 0.359968) at epoch 8
+Best Accuracy: 0.359968 (Reward: 0.415251) at epoch 8
+Saving model with header =  model/moduleKwNoMap-b15-2-8
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+list index out of range
+Exception in running!
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+list index out of range
+Exception in running!
+12000 / 12063
+In epoch  9  avg loss (or negative reward) is  0.770205911165
+In epoch  9  test reward is 0.407079, test accuracy is 0.352300
+Time taken in this epoch 1664.32131386
+Best Reward: 0.415251 (Accuracy: 0.359968) at epoch 8
+Best Accuracy: 0.359968 (Reward: 0.415251) at epoch 8
+Saving model with header =  model/moduleKwNoMap-b15-2-9
+
+100 / 12063
+('debug: qinfo', 'nt-14053_0_2', 'table_csv/203_386.csv')
+('debug: cond_row, self.cond_col = ', 0, 3)
+('debug: subtab_rows', [0, 8])
+('debug: entries', [['4 May 1943', 'U-209', 'VIIC', 'Heinrich Brodda', '46', 'Catalina Flying-boat of No. 5 Squadron RCAF'], ['5 May 1943', 'U-638', 'VIIC', 'Oskar Staudinger', '44', 'HMS Sunflower'], ['5 May 1943', 'U-531', 'IXC/40', 'Herbert Neckel', '54', 'HMS Vidette'], ['6 May 1943', 'U-192', 'IXC/40', 'Werner Happe', '55', 'HMS Loosestrife'], ['6 May 1943', 'U-125', 'IXC', 'Ulrich Folkers', '54', 'HMS Oribi, HMS Snowflake'], ['6 May 1943', 'U-630', 'VIIC', 'Werner Winkler', '47', 'HMS Vidette'], ['6 May 1943', 'U-438', 'VIIC', 'Heinrich Hensohn', '48', 'HMS Pelican']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  10  avg loss (or negative reward) is  0.758418476119
+In epoch  10  test reward is 0.419308, test accuracy is 0.361178
+Time taken in this epoch 1665.52003908
+Best Reward: 0.419308 (Accuracy: 0.361178) at epoch 10
+Best Accuracy: 0.361178 (Reward: 0.419308) at epoch 10
+Saving model with header =  model/moduleKwNoMap-b15-2-10
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+list index out of range
+Exception in running!
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  11  avg loss (or negative reward) is  0.750422955198
+In epoch  11  test reward is 0.414271, test accuracy is 0.357143
+Time taken in this epoch 1722.85579205
+Best Reward: 0.419308 (Accuracy: 0.361178) at epoch 10
+Best Accuracy: 0.361178 (Reward: 0.419308) at epoch 10
+Saving model with header =  model/moduleKwNoMap-b15-2-11
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  12  avg loss (or negative reward) is  0.741554585269
+In epoch  12  test reward is 0.415429, test accuracy is 0.356336
+Time taken in this epoch 1756.88878679
+Best Reward: 0.419308 (Accuracy: 0.361178) at epoch 10
+Best Accuracy: 0.361178 (Reward: 0.419308) at epoch 10
+Saving model with header =  model/moduleKwNoMap-b15-2-12
+
+100 / 12063
+('debug: qinfo', 'nt-14053_0_2', 'table_csv/203_386.csv')
+('debug: cond_row, self.cond_col = ', 0, 3)
+('debug: subtab_rows', [0, 8])
+('debug: entries', [['4 May 1943', 'U-209', 'VIIC', 'Heinrich Brodda', '46', 'Catalina Flying-boat of No. 5 Squadron RCAF'], ['5 May 1943', 'U-638', 'VIIC', 'Oskar Staudinger', '44', 'HMS Sunflower'], ['5 May 1943', 'U-531', 'IXC/40', 'Herbert Neckel', '54', 'HMS Vidette'], ['6 May 1943', 'U-192', 'IXC/40', 'Werner Happe', '55', 'HMS Loosestrife'], ['6 May 1943', 'U-125', 'IXC', 'Ulrich Folkers', '54', 'HMS Oribi, HMS Snowflake'], ['6 May 1943', 'U-630', 'VIIC', 'Werner Winkler', '47', 'HMS Vidette'], ['6 May 1943', 'U-438', 'VIIC', 'Heinrich Hensohn', '48', 'HMS Pelican']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+('debug: qinfo', 'nt-6000_0_2', 'table_csv/204_359.csv')
+('debug: cond_row, self.cond_col = ', 0, 0)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+('debug: entries', [['Quechua', '11,671', '10,203', '12,482', '9,596', '29,940', '14,789'], ['Aymara', '72', '74', '39', '965', '1,590', '907'], ['Guarani', '7', '9', '3', '19', '39', '41'], ['Another native', '16', '9', '6', '424', '235', '27'], ['Spanish', '4,967', '4,991', '4,954', '11,530', '29,377', '17,164'], ['Foreign', '32', '15', '22', '128', '199', '142'], ['Only native', '7,060', '5,623', '7,706', '2,518', '8,131', '3,207'], ['Native and Spanish', '4,645', '4,598', '4,790', '7,811', '22,426', '11,864'], ['Only Spanish', '322', '393', '166', '3,726', '6,956', '5,314']])
+local variable 'ret' referenced before assignment
+Exception in running!
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+list index out of range
+Exception in running!
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  13  avg loss (or negative reward) is  0.731420048477
+In epoch  13  test reward is 0.413117, test accuracy is 0.358354
+Time taken in this epoch 1779.30939817
+Best Reward: 0.419308 (Accuracy: 0.361178) at epoch 10
+Best Accuracy: 0.361178 (Reward: 0.419308) at epoch 10
+Saving model with header =  model/moduleKwNoMap-b15-2-13
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+list index out of range
+Exception in running!
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+list index out of range
+Exception in running!
+12000 / 12063
+In epoch  14  avg loss (or negative reward) is  0.722306060367
+In epoch  14  test reward is 0.417292, test accuracy is 0.355932
+Time taken in this epoch 1778.88638091
+Best Reward: 0.419308 (Accuracy: 0.361178) at epoch 10
+Best Accuracy: 0.361178 (Reward: 0.419308) at epoch 10
+Saving model with header =  model/moduleKwNoMap-b15-2-14
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+('debug: qinfo', 'ns-2484_0_2', 'table_csv/204_764.csv')
+('debug: cond_row, self.cond_col = ', 0, 4)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21])
+('debug: entries', [['2001', '?', '?-?', '?', '?', '?', '?'], ['2005', '?', '?-?', '?', '?', '?', '?'], ['2006', '?', '?-?', '?', '?', '?', '?'], ['2007', 'SGD 1,600', '?-?', 'SGD 800', 'SGD 3,600', 'SGD 1,600', 'SGD 800'], ['2008', 'SGD 1,600', '?-?', 'SGD 800', 'SGD 3,600', 'SGD 1,600', 'SGD 800'], ['2009', 'SGD 1,000', '?-?', 'SGD 500', 'SGD 2,400', 'SGD 1,000', 'SGD 500'], ['2010', 'SGD 1,000', '?-?', 'SGD 500', '?', 'SGD 1,000', 'SGD 500']])
+local variable 'ret' referenced before assignment
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+list index out of range
+Exception in running!
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  15  avg loss (or negative reward) is  0.716416792459
+In epoch  15  test reward is 0.416236, test accuracy is 0.358354
+Time taken in this epoch 1770.37183309
+Best Reward: 0.419308 (Accuracy: 0.361178) at epoch 10
+Best Accuracy: 0.361178 (Reward: 0.419308) at epoch 10
+Saving model with header =  model/moduleKwNoMap-b15-2-15
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+list index out of range
+Exception in running!
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  16  avg loss (or negative reward) is  0.707239399179
+In epoch  16  test reward is 0.422335, test accuracy is 0.366021
+Time taken in this epoch 1793.02929783
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-16
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  17  avg loss (or negative reward) is  0.699305451928
+In epoch  17  test reward is 0.419337, test accuracy is 0.364003
+Time taken in this epoch 1777.82981205
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-17
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+list index out of range
+Exception in running!
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+list index out of range
+Exception in running!
+12000 / 12063
+In epoch  18  avg loss (or negative reward) is  0.691147202908
+In epoch  18  test reward is 0.413041, test accuracy is 0.356739
+Time taken in this epoch 1780.64998507
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-18
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  19  avg loss (or negative reward) is  0.684831051887
+In epoch  19  test reward is 0.419269, test accuracy is 0.358354
+Time taken in this epoch 1791.19528699
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-19
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+('debug: qinfo', 'ns-2086_0_2', 'table_csv/203_809.csv')
+('debug: cond_row, self.cond_col = ', 0, 7)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18])
+('debug: entries', [['September 2', '12:30 p.m.', 'WKU*', '#15', 'Sanford Stadium * Athens, GA', 'LFS', 'W 48-12', '92,746'], ['September 9', '7:45 p.m.', 'at South Carolina', '#12', 'Williams-Brice Stadium * Columbia, SC', 'ESPN', 'W 18-0', '82,513'], ['September 16', '1:00 p.m.', 'UAB*', '#10', 'Sanford Stadium * Athens, GA', 'CSS', 'W 34-0', '92,746'], ['September 23', '12:30 p.m.', 'Colorado*', '#9', 'Sanford Stadium * Athens, GA', 'LFS', 'W 14-13', '92,746'], ['September 30', '9:00 p.m.', 'at Ole Miss', '#10', 'Vaught-Hemingway Stadium * Oxford, MS', 'ESPN2', 'W 14-9', '57,184'], ['October 7', '7:45 p.m.', '#13 Tennessee', '#10', 'Sanford Stadium * Athens, GA', 'ESPN', 'L 33-51', '92,746'], ['October 14', '12:30 p.m.', 'Vanderbilt', '#16', 'Sanford Stadium * Athens, GA', 'LFS', 'L 22-24', '92,746'], ['October 21', '1:00 p.m.', 'Mississippi State', '_EMPTY_', 'Sanford Stadium * Athens, GA', '_EMPTY_', 'W 27-24', '92,746'], ['October 28', '3:30 p.m.', 'vs. #9 Florida', '_EMPTY_', 'Alltel Stadium * Jacksonville, FL (Florida-Georgia game)', 'CBS', 'L 14-21', '84,572'], ['November 4', '1:00 p.m.', 'at Kentucky', '_EMPTY_', 'Commonwealth Stadium * Lexington, KY', '_EMPTY_', 'L 20-24', '62,120'], ['November 11', '12:30 p.m.', 'at #5 Auburn', '_EMPTY_', "Jordan-Hare Stadium * Auburn, AL (Deep South's Oldest Rivalry)", 'LFS', 'W 37-15', '87,451'], ['November 25', '3:30 p.m.', '#16 Georgia Tech*', '_EMPTY_', 'Sanford Stadium * Athens, GA (Clean, Old-Fashioned Hate)', 'CBS', 'W 15-12', '92,746'], ['December 30', '8:00 p.m.', 'vs. #14 Virginia Tech*', '_EMPTY_', 'Georgia Dome * Atlanta, GA (Chick-fil-A Bowl)', 'ESPN', 'W 31-24', '75,406']])
+local variable 'ret' referenced before assignment
+Exception in running!
+('debug: qinfo', 'ns-2086_0_3', 'table_csv/203_809.csv')
+('debug: cond_row, self.cond_col = ', 0, 0)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18])
+('debug: entries', [['September 2', '12:30 p.m.', 'WKU*', '#15', 'Sanford Stadium * Athens, GA', 'LFS', 'W 48-12', '92,746'], ['September 9', '7:45 p.m.', 'at South Carolina', '#12', 'Williams-Brice Stadium * Columbia, SC', 'ESPN', 'W 18-0', '82,513'], ['September 16', '1:00 p.m.', 'UAB*', '#10', 'Sanford Stadium * Athens, GA', 'CSS', 'W 34-0', '92,746'], ['September 23', '12:30 p.m.', 'Colorado*', '#9', 'Sanford Stadium * Athens, GA', 'LFS', 'W 14-13', '92,746'], ['September 30', '9:00 p.m.', 'at Ole Miss', '#10', 'Vaught-Hemingway Stadium * Oxford, MS', 'ESPN2', 'W 14-9', '57,184'], ['October 7', '7:45 p.m.', '#13 Tennessee', '#10', 'Sanford Stadium * Athens, GA', 'ESPN', 'L 33-51', '92,746'], ['October 14', '12:30 p.m.', 'Vanderbilt', '#16', 'Sanford Stadium * Athens, GA', 'LFS', 'L 22-24', '92,746'], ['October 21', '1:00 p.m.', 'Mississippi State', '_EMPTY_', 'Sanford Stadium * Athens, GA', '_EMPTY_', 'W 27-24', '92,746'], ['October 28', '3:30 p.m.', 'vs. #9 Florida', '_EMPTY_', 'Alltel Stadium * Jacksonville, FL (Florida-Georgia game)', 'CBS', 'L 14-21', '84,572'], ['November 4', '1:00 p.m.', 'at Kentucky', '_EMPTY_', 'Commonwealth Stadium * Lexington, KY', '_EMPTY_', 'L 20-24', '62,120'], ['November 11', '12:30 p.m.', 'at #5 Auburn', '_EMPTY_', "Jordan-Hare Stadium * Auburn, AL (Deep South's Oldest Rivalry)", 'LFS', 'W 37-15', '87,451'], ['November 25', '3:30 p.m.', '#16 Georgia Tech*', '_EMPTY_', 'Sanford Stadium * Athens, GA (Clean, Old-Fashioned Hate)', 'CBS', 'W 15-12', '92,746'], ['December 30', '8:00 p.m.', 'vs. #14 Virginia Tech*', '_EMPTY_', 'Georgia Dome * Atlanta, GA (Chick-fil-A Bowl)', 'ESPN', 'W 31-24', '75,406']])
+local variable 'ret' referenced before assignment
+Exception in running!
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  20  avg loss (or negative reward) is  0.679180565972
+In epoch  20  test reward is 0.415182, test accuracy is 0.360371
+Time taken in this epoch 1787.78994298
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-20
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  21  avg loss (or negative reward) is  0.673089305671
+In epoch  21  test reward is 0.415230, test accuracy is 0.356739
+Time taken in this epoch 1799.67603612
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-21
+
+100 / 12063
+('debug: qinfo', 'nt-14053_0_2', 'table_csv/203_386.csv')
+('debug: cond_row, self.cond_col = ', 0, 4)
+('debug: subtab_rows', [0, 8])
+('debug: entries', [['4 May 1943', 'U-209', 'VIIC', 'Heinrich Brodda', '46', 'Catalina Flying-boat of No. 5 Squadron RCAF'], ['5 May 1943', 'U-638', 'VIIC', 'Oskar Staudinger', '44', 'HMS Sunflower'], ['5 May 1943', 'U-531', 'IXC/40', 'Herbert Neckel', '54', 'HMS Vidette'], ['6 May 1943', 'U-192', 'IXC/40', 'Werner Happe', '55', 'HMS Loosestrife'], ['6 May 1943', 'U-125', 'IXC', 'Ulrich Folkers', '54', 'HMS Oribi, HMS Snowflake'], ['6 May 1943', 'U-630', 'VIIC', 'Werner Winkler', '47', 'HMS Vidette'], ['6 May 1943', 'U-438', 'VIIC', 'Heinrich Hensohn', '48', 'HMS Pelican']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  22  avg loss (or negative reward) is  0.662616564108
+In epoch  22  test reward is 0.417058, test accuracy is 0.357546
+Time taken in this epoch 1805.3920989
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-22
+
+100 / 12063
+('debug: qinfo', 'nt-14053_0_2', 'table_csv/203_386.csv')
+('debug: cond_row, self.cond_col = ', 0, 4)
+('debug: subtab_rows', [0, 8])
+('debug: entries', [['4 May 1943', 'U-209', 'VIIC', 'Heinrich Brodda', '46', 'Catalina Flying-boat of No. 5 Squadron RCAF'], ['5 May 1943', 'U-638', 'VIIC', 'Oskar Staudinger', '44', 'HMS Sunflower'], ['5 May 1943', 'U-531', 'IXC/40', 'Herbert Neckel', '54', 'HMS Vidette'], ['6 May 1943', 'U-192', 'IXC/40', 'Werner Happe', '55', 'HMS Loosestrife'], ['6 May 1943', 'U-125', 'IXC', 'Ulrich Folkers', '54', 'HMS Oribi, HMS Snowflake'], ['6 May 1943', 'U-630', 'VIIC', 'Werner Winkler', '47', 'HMS Vidette'], ['6 May 1943', 'U-438', 'VIIC', 'Heinrich Hensohn', '48', 'HMS Pelican']])
+local variable 'ret' referenced before assignment
+Exception in running!
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+('debug: qinfo', 'nt-6000_0_2', 'table_csv/204_359.csv')
+('debug: cond_row, self.cond_col = ', 0, 0)
+('debug: subtab_rows', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+('debug: entries', [['Quechua', '11,671', '10,203', '12,482', '9,596', '29,940', '14,789'], ['Aymara', '72', '74', '39', '965', '1,590', '907'], ['Guarani', '7', '9', '3', '19', '39', '41'], ['Another native', '16', '9', '6', '424', '235', '27'], ['Spanish', '4,967', '4,991', '4,954', '11,530', '29,377', '17,164'], ['Foreign', '32', '15', '22', '128', '199', '142'], ['Only native', '7,060', '5,623', '7,706', '2,518', '8,131', '3,207'], ['Native and Spanish', '4,645', '4,598', '4,790', '7,811', '22,426', '11,864'], ['Only Spanish', '322', '393', '166', '3,726', '6,956', '5,314']])
+local variable 'ret' referenced before assignment
+Exception in running!
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+list index out of range
+Exception in running!
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+list index out of range
+Exception in running!
+12000 / 12063
+In epoch  23  avg loss (or negative reward) is  0.658792043122
+In epoch  23  test reward is 0.408637, test accuracy is 0.355529
+Time taken in this epoch 1806.79253793
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-23
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+list index out of range
+Exception in running!
+list index out of range
+Exception in running!
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  24  avg loss (or negative reward) is  0.650082765473
+In epoch  24  test reward is 0.413789, test accuracy is 0.356336
+Time taken in this epoch 1906.86739111
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-24
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  25  avg loss (or negative reward) is  0.642380826505
+In epoch  25  test reward is 0.404272, test accuracy is 0.349879
+Time taken in this epoch 1911.33674288
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-25
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+list index out of range
+Exception in running!
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  26  avg loss (or negative reward) is  0.640140314844
+In epoch  26  test reward is 0.417173, test accuracy is 0.360775
+Time taken in this epoch 1771.81380296
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-26
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+list index out of range
+Exception in running!
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  27  avg loss (or negative reward) is  0.634240790849
+In epoch  27  test reward is 0.416341, test accuracy is 0.357546
+Time taken in this epoch 1615.51179314
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-27
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+list index out of range
+Exception in running!
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+list index out of range
+Exception in running!
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+list index out of range
+Exception in running!
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  28  avg loss (or negative reward) is  0.629407236365
+In epoch  28  test reward is 0.408257, test accuracy is 0.351493
+Time taken in this epoch 1616.57255006
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-28
+
+100 / 12063
+200 / 12063
+300 / 12063
+400 / 12063
+500 / 12063
+600 / 12063
+700 / 12063
+800 / 12063
+900 / 12063
+1000 / 12063
+1100 / 12063
+1200 / 12063
+1300 / 12063
+1400 / 12063
+1500 / 12063
+1600 / 12063
+1700 / 12063
+1800 / 12063
+1900 / 12063
+2000 / 12063
+2100 / 12063
+2200 / 12063
+2300 / 12063
+2400 / 12063
+2500 / 12063
+2600 / 12063
+2700 / 12063
+2800 / 12063
+2900 / 12063
+3000 / 12063
+3100 / 12063
+3200 / 12063
+3300 / 12063
+3400 / 12063
+3500 / 12063
+3600 / 12063
+3700 / 12063
+3800 / 12063
+3900 / 12063
+4000 / 12063
+4100 / 12063
+4200 / 12063
+4300 / 12063
+4400 / 12063
+4500 / 12063
+4600 / 12063
+4700 / 12063
+4800 / 12063
+4900 / 12063
+5000 / 12063
+5100 / 12063
+5200 / 12063
+5300 / 12063
+5400 / 12063
+5500 / 12063
+5600 / 12063
+5700 / 12063
+5800 / 12063
+5900 / 12063
+6000 / 12063
+6100 / 12063
+6200 / 12063
+6300 / 12063
+6400 / 12063
+6500 / 12063
+6600 / 12063
+6700 / 12063
+6800 / 12063
+6900 / 12063
+7000 / 12063
+7100 / 12063
+7200 / 12063
+7300 / 12063
+7400 / 12063
+7500 / 12063
+7600 / 12063
+7700 / 12063
+7800 / 12063
+7900 / 12063
+8000 / 12063
+8100 / 12063
+8200 / 12063
+8300 / 12063
+8400 / 12063
+8500 / 12063
+8600 / 12063
+8700 / 12063
+8800 / 12063
+8900 / 12063
+9000 / 12063
+9100 / 12063
+9200 / 12063
+9300 / 12063
+9400 / 12063
+9500 / 12063
+9600 / 12063
+9700 / 12063
+9800 / 12063
+9900 / 12063
+10000 / 12063
+10100 / 12063
+10200 / 12063
+10300 / 12063
+10400 / 12063
+10500 / 12063
+10600 / 12063
+10700 / 12063
+10800 / 12063
+10900 / 12063
+11000 / 12063
+11100 / 12063
+11200 / 12063
+11300 / 12063
+11400 / 12063
+11500 / 12063
+11600 / 12063
+11700 / 12063
+11800 / 12063
+11900 / 12063
+12000 / 12063
+In epoch  29  avg loss (or negative reward) is  0.616796413216
+In epoch  29  test reward is 0.406343, test accuracy is 0.349475
+Time taken in this epoch 1605.21829486
+Best Reward: 0.422335 (Accuracy: 0.366021) at epoch 16
+Best Accuracy: 0.366021 (Reward: 0.422335) at epoch 16
+Saving model with header =  model/moduleKwNoMap-b15-2-29
+

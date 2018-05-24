@@ -1,0 +1,15 @@
+cache/glove.6b.100d.trie filter=lfs diff=lfs merge=lfs -text
+cache/glove.twitter.100d.trie filter=lfs diff=lfs merge=lfs -text
+cache/senna.wiki.50d.trie filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-ind-0-29-dynetmodel.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-ind-0-29-extra.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-0-18-dynetmodel.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-0-18-extra.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-ind-0-20-dynetmodel.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-ind-0-20-extra.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-ind-0-29-dynetmodel.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-ind-0-29-extra.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-0-18-dynetmodel.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-0-18-extra.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-ind-0-20-dynetmodel.bin filter=lfs diff=lfs merge=lfs -text
+model/moduleKwNoMap-b15-ind-0-20-extra.bin filter=lfs diff=lfs merge=lfs -text
