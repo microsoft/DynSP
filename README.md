@@ -76,7 +76,7 @@ Position 6 Accuracy = 25.00% (1/4)
 ```    
 
 _A [tokenzier](https://github.com/myleott/ark-twokenize-py) and some data files are not included in the initial release 
-due to licencing issues. They can be found at a [folk](https://github.com/scottyih/DynSP)._ 
+due to licencing issues. They can be found at a [fork](https://github.com/scottyih/DynSP)._ 
 The [Sequential Question Answering (SQA) dataset](https://www.microsoft.com/en-us/download/details.aspx?id=54253), 
 published and used in the same paper, can be downloaded separately.
 
