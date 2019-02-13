@@ -45,8 +45,8 @@ class SqaModel():
         n_words = vw.size()
         print("init vw =", self.vw.size(), "words")
         self.learning_rate = init_learning_rate
-        #self.learner = dt.SimpleSGDTrainer(self.model, e0=init_learning_rate)
-        self.learner = dt.SimpleSGDTrainer(self.model)
+        self.learner = dt.SimpleSGDTrainer(self.model, learning_rate=init_learning_rate)
+        # self.learner = dt.SimpleSGDTrainer(self.model)
         self.E = self.model.add_lookup_parameters((n_words, SqaModel.WORD_EMBEDDING_DIM))
         # similarity(v,o): v^T o
         self.SelHW = self.model.add_parameters((4 * SqaModel.WORD_EMBEDDING_DIM))
